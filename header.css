@@ -1,0 +1,51 @@
+#header{
+    background-color: black;
+}
+.company-name{
+    color: red;
+    margin-top: 7px;
+}
+#nav{
+    list-style: none;
+    margin-top: 12px;
+}
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    border-radius: 15px 15px;
+    padding: 5px 15px;
+}
+#nav li a:hover{
+    background-color: rgb(199, 59, 59);
+}
+#footer{
+    color: #fff;
+    background-color: rgb(199, 59, 59);
+    padding: 10px 0;
+}
+#social-icons{
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+#social-icons li a{
+    color: #fff;
+    font-size: 23px;
+}
+@media(max-width: 768px){
+    #footer{
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+}
